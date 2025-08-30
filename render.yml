@@ -1,10 +1,12 @@
+# Exported from Render on 2025-08-30T04:45:04Z
 services:
-  - type: web
-    name: pkay-proxy
-    env: node
-    plan: free
-    buildCommand: "npm install"
-    startCommand: "npm start"
-    envVars:
-      - key: NODE_ENV
-        value: production
+- type: web
+  name: ragestream
+  runtime: node
+  repo: https://github.com/Blazebat/studious-enigma
+  plan: free
+  region: oregon
+  buildCommand: yarn install
+  startCommand: node index.js
+  autoDeployTrigger: commit
+version: "1"
