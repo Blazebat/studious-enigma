@@ -3,7 +3,7 @@ const request = require("request");
 const cors = require("cors");
 
 const app = express();
-const BASE_URL = "https://pkaystream.cc/streamsvr";
+const BASE_URL = "https://pkaystream.cc";
 
 // Allow all origins
 app.use(cors());
