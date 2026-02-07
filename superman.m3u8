@@ -1,5 +1,6 @@
 #EXTM3U
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Stereo 5.1",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="und",URI="https://scrennnifu.click/movie/tt5950044/audio/und/audio.m3u8"
+#EXT-X-VERSION:4
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Stereo 5.1",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="und",CHANNELS="6",URI="https://scrennnifu.click/movie/tt5950044/audio/und/audio.m3u8"
 
 #EXT-X-STREAM-INF:BANDWIDTH=6000000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="audio"
 https://scrennnifu.click/movie/tt5950044/1080/playlist.m3u8
