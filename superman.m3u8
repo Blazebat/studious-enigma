@@ -1,0 +1,10 @@
+#EXTM3U
+
+#--- AUDIO GROUP DEFINITION ---
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="https://scrennnifu.click/movie/tt5950044/audio/und/audio.m3u8"
+
+#--- MOVIE ENTRY ---
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wPLysNDLffQLOVebZQCbXJEv6E6.jpg" codec="H.264 (AVC)" type="movie" group-title="Movie Library",Superman (2025)
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,CODECS="avc1.640028,mp4a.40.2",AUDIO="subs"
+https://scrennnifu.click/movie/tt5950044/1080/playlist.m3u8
+
